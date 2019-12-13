@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestCases.CreateLeadTestCase">
+        <methods>
+          <include name="launch"/>
+          <include name="start"/>
+          <include name="setdata"/>
+          <include name="close"/>
+          <include name="createLead" invocation-numbers="0 1"/>
+          <include name="stopReport"/>
+        </methods>
+      </class> <!-- TestCases.CreateLeadTestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
